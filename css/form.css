@@ -1,0 +1,61 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	background-image: url(../img/fon.jpg);
+	filter: drop-shadow(4px 4px 3px red) drop-shadow(-4px -4px 3px red);
+}
+
+a
+{
+	text-decoration: none;
+	margin-left: 60px;
+	transition: all 0.5s ease;
+	text-shadow: 4px 4px 3px red, -4px -4px 3px red;
+}
+
+h2
+{
+	margin-left: 120px;
+	color: #2DE100
+}
+.h{margin-left: 0;}
+.form{margin: 100px auto auto 600px;}
+
+.text, .buttons
+{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	display: block;
+	margin: 30px 30px 30px 0;
+	height: 30px;
+	width: 300px;
+	border-color: #2DE100;
+	transition: all 0.5s ease;
+}
+
+.buttons
+{
+	background-color: #2DE100;
+	font-weight: bold;
+	transition: all 0.5s ease;
+	/*font-size: */
+}
+
+.buttons:hover, a:hover
+{
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	color: yellow;
+
+	
+}
+
+.buttons:hover{background-color: #24B200;}
+
+a:hover
+{
+	text-shadow: none;
+	filter: drop-shadow(0px 0px 0px white);
+}
